@@ -1,0 +1,44 @@
+.global_header {
+  margin-bottom: 0em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.global_header > h1 {
+  font-family: "Caveat";
+  font-size: 31px;
+  margin: auto 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.global_header nav li {
+  margin: 0;
+  display: flex;
+  padding: 0 15px;
+}
+
+ul > li:last-of-type {
+  background-color: #5C3B48;
+  padding: 10px 33px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+ul > li:last-of-type > a {
+  color: white;
+}
+
+.global_header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  align-self: center;
+}
