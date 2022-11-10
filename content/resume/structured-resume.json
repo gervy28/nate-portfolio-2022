@@ -1,0 +1,213 @@
+{
+  "work": [
+    {
+      "name": "Traditional Cabinetry",
+      "location": "Brainerd, MN",
+      "description": "This is a test description",
+      "position": "Business Analyst",
+      "url": "https://traditional-cabinetry.com",
+      "logo":"",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": [
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        },
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        }
+      ],
+      "reference": [
+        {
+          "reviewer":"",
+          "review":""
+        }
+      ],
+      "skills": [],
+      "tools":[],
+      "isCurrentRole": true,
+      "start": {
+        "year": 2020,
+        "month": 1
+      },
+      "end": {},
+      "company": "Traditional Cabinetry",
+      "website": "https://"
+    },
+    {
+      "name": "SiteFlight",
+      "location": "Brainerd, MN",
+      "description": "This is a test description",
+      "position": "Owner",
+      "url": "https://traditional-cabinetry.com",
+      "logo":"",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": [
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        },
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        }
+      ],
+      "reference": [
+        {
+          "reviewer":"",
+          "review":""
+        }
+      ],
+      "skills": [],
+      "tools":[],
+      "isCurrentRole": true,
+      "start": {
+        "year": 2020,
+        "month": 1
+      },
+      "end": {},
+      "company": "Traditional Cabinetry",
+      "website": "https://"
+    },
+    {
+      "name": "Yellowstone Pavement Solutions",
+      "location": "Brainerd, MN",
+      "description": "This is a test description",
+      "position": "Business Analyst",
+      "url": "https://traditional-cabinetry.com",
+      "logo":"",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": [
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        },
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        }
+      ],
+      "reference": [
+        {
+          "reviewer":"",
+          "review":""
+        }
+      ],
+      "skills": [],
+      "tools":[],
+      "isCurrentRole": true,
+      "start": {
+        "year": 2020,
+        "month": 1
+      },
+      "end": {},
+      "company": "Traditional Cabinetry",
+      "website": "https://"
+    },
+    {
+      "name": "Real Avid",
+      "location": "Brainerd, MN",
+      "description": "This is a test description",
+      "position": "Business Analyst",
+      "url": "https://traditional-cabinetry.com",
+      "logo":"",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": [
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        },
+        {
+          "projectName":"",
+          "image":"",
+          "description":"",
+          "skills":[],
+          "tools":[]
+        }
+      ],
+      "reference": [
+        {
+          "reviewer":"",
+          "review":""
+        }
+      ],
+      "skills": [],
+      "tools":[],
+      "isCurrentRole": true,
+      "start": {
+        "year": 2020,
+        "month": 1
+      },
+      "end": {},
+      "company": "Traditional Cabinetry",
+      "website": "https://"
+    }
+  ],
+  "projects":[
+    {
+      "title":"Dead On Gaming",
+      "year":"2022",
+      "img":"",
+      "description":"",
+      "tools":["Amazon"]
+    },
+    {
+      "title":"JoContractor",
+      "year":"2022",
+      "img":"",
+      "description":"",
+      "tools":["Figma","React","Ionic"]
+    },
+    {
+      "title":"Vanlife.Pupil",
+      "year":"2020",
+      "img":"",
+      "description":"",
+      "tools":["PHP","Laravel","Vue.JS"]
+    },
+    {
+      "title":"WeFish",
+      "year":"2013",
+      "img":"",
+      "description":"",
+      "tools":["WordPress", "WireFrames", "Entrepreneurship"]
+    },
+    {
+      "title":"Surviving With Gerv",
+      "year":"2013",
+      "img":"",
+      "description":"",
+      "tools":["Sales", "Project Management", "Entrepreneurship"]
+    }
+  ]
+}
