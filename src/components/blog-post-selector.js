@@ -6,19 +6,32 @@
  */
 
  import * as React from "react"
+
+
+ import { Link, useStaticQuery, graphql } from "gatsby"
  import * as blogPostSelector from "./blog-post-selector.module.css"
  
- import * as React from "react"
- import { Link, graphql } from "gatsby"
- 
- import Bio from "../components/bio"
- import Layout from "../components/layout"
- import Seo from "../components/seo"
- import HomePageHero from "../components/home-page-hero"
- 
- const BlogIndex = ({ data, location }) => {
-   const siteTitle = data.site.siteMetadata?.title || `Title`
-   const posts = data.allMarkdownRemark.nodes
+ const BlogPostSelector = () => {
+
+  const postsQuery = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark {
+        nodes {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+          }
+        }
+      }
+    }
+  `)
+
+  const posts = postsQuery.allMarkdownRemark.nodes
  
    if (posts.length === 0) {
      return (
@@ -29,13 +42,14 @@
    }
  
    return (
-     <section>
-       <ol style={{ listStyle: `none` }}>
+     <section className={blogPostSelector.blog_cards_wrapper}>
+        {console.log(posts)}
          {posts.map(post => {
            const title = post.frontmatter.title || post.fields.slug
- 
            return (
-             <li key={post.fields.slug}>
+            //  https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/
+             
+             <div className={blogPostSelector.card} key={post.fields.slug}>
                <article
                  className="post-list-item"
                  itemScope
@@ -58,43 +72,14 @@
                    />
                  </section>
                </article>
-             </li>
+             </div>
            )
          })}
-       </ol>
      </section>
    )
  }
  
- export default BlogIndex
+ export default BlogPostSelector
  
- /**
-  * Head export to define metadata for the page
-  *
-  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
-  */
- export const Head = () => <Seo title="All posts" />
  
- export const pageQuery = graphql`
-   query {
-     site {
-       siteMetadata {
-         title
-       }
-     }
-     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-       nodes {
-         excerpt
-         fields {
-           slug
-         }
-         frontmatter {
-           date(formatString: "MMMM DD, YYYY")
-           title
-           description
-         }
-       }
-     }
-   }
- `
  

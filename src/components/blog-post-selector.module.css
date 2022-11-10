@@ -1,0 +1,10 @@
+.blog_cards_wrapper {
+ width: 90%;
+ display: flex;
+ 
+}
+
+.card {
+  background-color: green;
+}
+
