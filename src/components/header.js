@@ -36,8 +36,8 @@
       <h1>Nate Gervenak</h1>
       <nav>
         <ul>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#">portfolio</a></li>
+          <li className="mobile-hidden" ><a href="#skills">skills</a></li>
+          <li className="mobile-hidden"><a href="#">portfolio</a></li>
           <li><a href="#">contact me</a></li>
         </ul>
       </nav>

@@ -32,29 +32,39 @@
    const social = data.site.siteMetadata?.social
  
    return (
-    <section>
+    <section class={homePageHeroStyles.hero_container} >
       <div>
-        <h1>Product Manager</h1>
-        <h2>DESIGNED TO DRIVE IDEAS FORWARD</h2>
-        <p>
-          My career objective is to drive efficiently built quality in a 
-          diverse team of engineers, designers, marketers, sales people, and 
-          executives to bridge the gap between raw-idea and functioning product. 
-          I’ll do this by articulating requirements, making clear decisions, removing 
-          barriers, and eliciting feedback. 
-        </p>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <h1>Product Manager</h1>
+          <h2>DESIGNED TO DRIVE IDEAS FORWARD</h2>
+          <p>
+            My career objective is to drive efficiently built quality in a 
+            diverse team of engineers, designers, marketers, sales people, and 
+            executives to bridge the gap between raw-idea and functioning product. 
+            I’ll do this by articulating requirements, making clear decisions, removing 
+            barriers, and eliciting feedback. 
+          </p>
+        </div>
       </div>
-      <div>
+      <div className={`mobile-hidden ${homePageHeroStyles.img_container}`}>
         <StaticImage 
           loading="eager" 
           src="../images/nate-working-for-portfolio.png"
           imgClassName={homePageHeroStyles.front_img}
+          className={homePageHeroStyles.front_img_container}
           alt="nate gervenak working" 
         />
         <StaticImage
           loading="eager" 
-          src="../images/nate-working-for-portfolio.png" 
-          imgClassName={homePageHeroStyles.back_img} 
+          image="../images/nate-working-for-portfolio.png" 
+          imgClassName={homePageHeroStyles.back_img}
+          className={homePageHeroStyles.back_img_container}
           alt="nate gervenak working"
         />
       </div> 
