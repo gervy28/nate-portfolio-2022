@@ -1,4 +1,30 @@
 .skills_section_container > h2 {
   font-size: 5.6rem;
   font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+.skills_section_container h3 {
+  text-align: center;
+}
+
+
+.skills_list {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: .5rem;
+  align-items: center;
+  justify-content: start;
+
+}
+
+.skills_list > li {
+  min-width: 12rem;
+  padding: .5rem 1rem;
+  margin-inline: 1.5rem;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
 }

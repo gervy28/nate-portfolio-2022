@@ -56,7 +56,7 @@
         <StaticImage 
           loading="eager" 
           src="../images/nate-working-for-portfolio.png"
-          width={300}
+          width={500}
           objectFit="cover"
           imgClassName={homePageHeroStyles.front_img}
           className={homePageHeroStyles.front_img_container}
