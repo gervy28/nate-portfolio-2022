@@ -4,12 +4,21 @@ module.exports = {
     author: {
       name: `Nate Gervenak`,
       summary: ``,
+      email: ``,
+      phone: ``,
+      location: ``
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `gervy28`,
     },
+    resume: {
+      technology_skills: [ "web design", "web development", "ui/ux", "research", "financial planning"  ],
+      knowledge_domains: [ "business development", "marketing", "analytics", "seo" ],
+      tools: [ "Excel", "Figma" ,"HubSpot", "JavaScript", "WordPress", "PHP", "Git" ],
+      soft_skills: [ "team orientation", "communication", "creativity", "growth minded" ],
+    }
   },
   plugins: [
     `gatsby-plugin-image`,

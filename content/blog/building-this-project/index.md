@@ -1,7 +1,7 @@
 ---
 title: Defining This Project
 date: "2022-11-09T15:46:37.121Z"
-description: A brief overview of this project.
+description: This project is made to get me a job. I have quick design done to make things run smooth.
 ---
 
 ## Nate's Portfolio Project Scope

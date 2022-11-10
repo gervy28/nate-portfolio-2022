@@ -28,7 +28,7 @@ ul {
 
 ul > li:last-of-type {
   background-color: #5C3B48;
-  padding: 10px 33px;
+  padding: 7px 33px;
   text-transform: uppercase;
   border-radius: 10px;
 }

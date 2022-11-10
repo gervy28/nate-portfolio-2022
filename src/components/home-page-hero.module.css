@@ -35,15 +35,6 @@
   background-color: var(--color-accent-light);
 }
 
-.hero_container h1 {
-  font-size: 1.93rem;
-  font-family: Jost;
-  margin: 0;
-  font-weight: 400;
-  letter-spacing: .5rem;
-  text-transform: uppercase;
-}
-
 .hero_container h2 {
   font-size: 3.8rem;
   margin-top: 0;

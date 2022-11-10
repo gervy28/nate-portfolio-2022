@@ -93,6 +93,7 @@ body {
 
 body > div:first-child {
   margin-inline: auto;
+  max-width: 1300px;
 }
 
 /* main {
@@ -171,6 +172,15 @@ h5 > a,
 h6 > a {
   text-decoration: none;
   color: inherit;
+}
+
+.stretched_title {
+  font-family: Jost;
+  font-size: 1.93rem;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
 }
 
 /* Image */

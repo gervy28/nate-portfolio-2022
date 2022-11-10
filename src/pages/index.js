@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HomePageHero from "../components/home-page-hero"
 import BlogPostSelector from "../components/blog-post-selector"
+import SkillsSection from "../components/skills-section"
 
 const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -14,7 +15,7 @@ const Home = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <HomePageHero />
       <BlogPostSelector></BlogPostSelector>
-      <Bio />
+      <SkillsSection></SkillsSection>
     </Layout>
   )
 }

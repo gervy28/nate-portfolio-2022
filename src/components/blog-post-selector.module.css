@@ -1,10 +1,31 @@
+.section_blog {
+  margin: -5rem 0 5rem 0;
+}
+
 .blog_cards_wrapper {
  width: 90%;
  display: flex;
- 
+ margin-top: 1rem;
 }
 
 .card {
-  background-color: green;
+  background-color: var(--color-accent-light);
+  box-shadow: -.5rem .25rem 1px 2px rgba(0, 0, 0, 0.367);
+  border-radius: 10px;
+  padding: .25rem 1rem;
+  margin-inline: .75rem; 
+  min-height: 350px;
+  width: 300px;
 }
 
+
+.card > article > header > h2 {
+  color: transparent;
+  line-height: normal;
+  font-weight: 900;
+  background-color:rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.375);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+       background-clip: text;
+}
