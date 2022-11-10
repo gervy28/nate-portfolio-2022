@@ -32,7 +32,7 @@
    const social = data.site.siteMetadata?.social
  
    return (
-    <section class={homePageHeroStyles.hero_container} >
+    <section className={homePageHeroStyles.hero_container} >
       <div>
         <div>
           <span></span>
@@ -41,8 +41,8 @@
           <span></span>
         </div>
         <div>
-          <h1>Product Manager</h1>
-          <h2>DESIGNED TO DRIVE IDEAS FORWARD</h2>
+          <h1>Nate Gervenak</h1>
+          <h2>I'M BUILT TO DRIVE IDEAS FORWARD</h2>
           <p>
             My career objective is to drive efficiently built quality in a 
             diverse team of engineers, designers, marketers, sales people, and 
@@ -52,17 +52,20 @@
           </p>
         </div>
       </div>
-      <div className={`mobile-hidden ${homePageHeroStyles.img_container}`}>
+      <div className={`mobile-hidden ${homePageHeroStyles.imgs_container}`}>
         <StaticImage 
           loading="eager" 
           src="../images/nate-working-for-portfolio.png"
+          width={300}
+          objectFit="cover"
           imgClassName={homePageHeroStyles.front_img}
           className={homePageHeroStyles.front_img_container}
           alt="nate gervenak working" 
         />
         <StaticImage
           loading="eager" 
-          image="../images/nate-working-for-portfolio.png" 
+          width={500}
+          src="../images/nate-working-for-portfolio.png" 
           imgClassName={homePageHeroStyles.back_img}
           className={homePageHeroStyles.back_img_container}
           alt="nate gervenak working"

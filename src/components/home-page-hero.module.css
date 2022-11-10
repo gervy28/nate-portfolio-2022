@@ -35,8 +35,6 @@
   background-color: var(--color-accent-light);
 }
 
-
-
 .hero_container h1 {
   font-size: 1.93rem;
   font-family: Jost;
@@ -52,22 +50,29 @@
   font-weight: 900;
 }
 
-.front_img {
-  width: 90% !important;
-}
 
-.img_container {
+
+.imgs_container {
   position: relative;
 }
 
+/* .front_img_container {
+  width: 80%;
+} */
+
+/* .front_img {
+  width: 90% !important;
+} */
+
+
 .back_img_container {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 1.8rem;
+  left: 2.5rem;
   z-index: -1;
+  width: 105%;
 }
 
 .back_img {
-  width: 100%;
   opacity: .2 !important;
 }
