@@ -32,7 +32,7 @@
    const social = data.site.siteMetadata?.social
  
    return (
-    <header className={headerStyles.global_header}>
+    <header className={`contained_section ${headerStyles.global_header}`}>
       <h1>Nate Gervenak</h1>
       <nav>
         <ul>

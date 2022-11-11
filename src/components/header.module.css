@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 30px;
-  max-width: 1600px;
+  /* max-width: var(--maxWidth-section); */
 }
 
 .global_header > h1 {

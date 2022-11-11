@@ -40,7 +40,7 @@
       <h2 className="title_large">I AM GENERALIST WITH HANDS ON EXPEREINCE ACROSS MULTIPLE DOMAINS</h2>
       {resumeItems(resume).map(item => {
         return (
-          <div>
+          <div className="contained_section">
             <h3 className="title_stretched">{item.replaceAll("_", " ")}</h3>
               <ol className={skillsSectionStyles.skills_list}>
               {resume[item].map(entry => {

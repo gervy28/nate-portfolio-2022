@@ -42,41 +42,43 @@
    }
  
    return (
-     <section className={blogPostSelector.section_blog}>
-      <h2 className="stretched_title">my writing</h2>
-      <div className={blogPostSelector.blog_cards_wrapper}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          return (
-            //  https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/
-            
-            <div className={blogPostSelector.card} key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </div>
-          )
-        })}
+     <section className="contained_section">
+      <div className={blogPostSelector.section_blog}>
+        <h2 className="stretched_title">my writing</h2>
+        <div className={blogPostSelector.blog_cards_wrapper}>
+          {posts.map(post => {
+            const title = post.frontmatter.title || post.fields.slug
+            return (
+              //  https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/
+              
+              <div className={blogPostSelector.card} key={post.fields.slug}>
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <header>
+                    <h2>
+                      <Link to={post.fields.slug} itemProp="url">
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    </h2>
+                    <small>{post.frontmatter.date}</small>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                </article>
+              </div>
+            )
+          })}
         </div>
+      </div>
      </section>
    )
  }

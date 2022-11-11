@@ -32,7 +32,7 @@
    const social = data.site.siteMetadata?.social
  
    return (
-    <section className={homePageHeroStyles.hero_container} >
+    <section className={`contained_section ${homePageHeroStyles.hero_container}`} >
       <div>
         <div>
           <span></span>

@@ -10,6 +10,7 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
+  --maxWidth-section: 1300px;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-4xl);
   --spacing-px: "1px";
@@ -87,13 +88,18 @@ body {
   font-size: var(--fontSize-2);
   color: var(--color-text);
   max-width: 100%;
-  display: flex;
-  justify-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 body > div:first-child {
   margin-inline: auto;
+  max-width: 100%;
+}
+
+.contained_section {
   max-width: 1300px;
+  margin: auto;
 }
 
 /* main {
