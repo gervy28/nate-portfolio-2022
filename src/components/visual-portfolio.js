@@ -8,9 +8,26 @@
  import * as React from "react"
  import * as visualPortfolioStyles from "./visual-portfolio.module.css"
  import JSONData from "../../content/resume/structured-resume.json"
+ import { GatsbyImage, getImage } from "gatsby-plugin-image"
+ import { StaticQuery, graphql } from "gatsby"
+
  
  const VisualPortfolio = () => {
   const jobs = JSONData['work'];
+  // const data = useStaticQuery(graphql`
+  //   query ResumeQuery {
+  //     site {
+  //       siteMetadata {
+  //         resume {
+  //           technology_skills,
+  //           knowledge_domains,
+  //           tools,
+  //           soft_skills
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
@@ -22,7 +39,7 @@
               <div className={visualPortfolioStyles.portfolio_items_wrapper}>
                 {entry['highlights'].map(highlight => {
                   return (
-                    <div>
+                    <div >
                       <h4>{highlight.projectName}</h4>
                       <p>{highlight.description}</p>
                       <ul>
