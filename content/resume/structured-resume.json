@@ -13,18 +13,33 @@
       "highlights": [
         {
           "projectName":"Revitalize Project Bid",
-          "image":"../images/portfolio-images/excel-revised-bid.jpg",
+          "image":"../images/excel-revised-bid.jpg",
           "description":"this is what I did",
           "skills":[ "budgeting", "job costing"],
           "tools":["excel"]
         },
         {
-          "projectName":"",
-          "image":"",
-          "description":"",
-          "skills":[],
-          "tools":[]
+          "projectName":"Revitalize Project Bid",
+          "image":"../images/excel-revised-bid.jpg",
+          "description":"this is what I did",
+          "skills":[ "budgeting", "job costing"],
+          "tools":["excel"]
+        },
+        {
+          "projectName":"Revitalize Project Bid",
+          "image":"../images/excel-revised-bid.jpg",
+          "description":"this is what I did",
+          "skills":[ "budgeting", "job costing"],
+          "tools":["excel"]
+        },
+        {
+          "projectName":"Revitalize Project Bid",
+          "image":"../images/excel-revised-bid.jpg",
+          "description":"this is what I did",
+          "skills":[ "budgeting", "job costing"],
+          "tools":["excel"]
         }
+
       ],
       "reference": [
         {
