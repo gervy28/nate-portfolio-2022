@@ -6,58 +6,46 @@
  */
 
  import * as React from "react"
- import { useStaticQuery, graphql } from "gatsby"
  import * as visualPortfolioStyles from "./visual-portfolio.module.css"
+ import JSONData from "../../content/resume/structured-resume.json"
  
- const SkillsSection = () => {
-  //  const data = useStaticQuery(graphql`
-  //    query ResumeQuery {
-  //      site {
-  //        siteMetadata {
-  //          resume {
-  //            technology_skills,
-  //            knowledge_domains,
-  //            tools,
-  //            soft_skills
-  //          }
-  //        }
-  //      }
-  //    }
-  //  `)
- 
-  //  const resume = data.site.siteMetadata?.resume
-     
-  //  const resumeItems = (resume) => {
-  //   let resumeItems = [];
-  //   for (const key in resume ){
-  //     resumeItems.push(key);
-  //   }
-  //   return resumeItems;
-  //  }
- 
+ const VisualPortfolio = () => {
+  const jobs = JSONData['work'];
+
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
-      <h2>MY FOUNDATIONS ARE IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
-      {resumeItems(resume).map(item => {
-        
-        
-        return (
-          <div>
-            <h3 className="stretched_title">{item.replaceAll("_", " ")}</h3>
-              <ol className={skillsSectionStyles.skills_list}>
-              {resume[item].map(entry => {
-                return (
-                  <li>{entry}</li>
-                )
-              })}
-            </ol>
-          </div>
-        )
-      })}
+      <h2 className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
+        {jobs.map(entry => {
+          return (
+            <div>
+              <h3 className="title_stretched">{entry["name"]}</h3>
+              <div className={visualPortfolioStyles.portfolio_items_wrapper}>
+                {entry['highlights'].map(highlight => {
+                  return (
+                    <div>
+                      <h4>{highlight.projectName}</h4>
+                      <p>{highlight.description}</p>
+                      <ul>
+                        {highlight['skills'].map(skill => {
+                          return <li>{skill}</li>
+                        })}
+                      </ul>
+                      <ul>
+                        {highlight['tools'].map(tool => {
+                          return <li>{tool}</li>
+                        })}
+                      </ul>
+                    </div>
+                  )
+                })}
 
+              </div> 
+            </div>
+          )
+        })}
     </section>
    )
  }
  
- export default SkillsSection
+ export default VisualPortfolio
  

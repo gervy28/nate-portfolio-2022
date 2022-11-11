@@ -37,11 +37,11 @@
  
    return (
     <section className={skillsSectionStyles.skills_section_container}>
-      <h2>I AM GENERALIST WITH HANDS ON EXPEREINCE ACROSS MULTIPLE DOMAINS</h2>
+      <h2 className="title_large">I AM GENERALIST WITH HANDS ON EXPEREINCE ACROSS MULTIPLE DOMAINS</h2>
       {resumeItems(resume).map(item => {
         return (
           <div>
-            <h3 className="stretched_title">{item.replaceAll("_", " ")}</h3>
+            <h3 className="title_stretched">{item.replaceAll("_", " ")}</h3>
               <ol className={skillsSectionStyles.skills_list}>
               {resume[item].map(entry => {
                 return (

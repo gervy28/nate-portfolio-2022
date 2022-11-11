@@ -17,29 +17,22 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
+  gap: 15px;
   margin: 0px;
 }
 
 .global_header nav li {
   margin: 0;
   display: flex;
-  padding: 0 15px;
-}
-
-ul > li:last-of-type {
-  background-color: #5C3B48;
-  padding: 7px 33px;
-  text-transform: uppercase;
-  border-radius: 10px;
-}
-
-ul > li:last-of-type > a {
-  color: white;
 }
 
 .global_header nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 21px;
   align-self: center;
+  color: var(--color-text);
+  font-size: 1.3125rem;
+  text-decoration: none;
+}
+
+.global_header nav li:last-of-type > a {
+  color: white;
 }

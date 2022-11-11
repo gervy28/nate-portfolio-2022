@@ -174,13 +174,20 @@ h6 > a {
   color: inherit;
 }
 
-.stretched_title {
+.stretched_title,
+.title_stretched {
   font-family: Jost;
-  font-size: 1.93rem;
+  font-size: 1.75rem;
   margin: 0;
   font-weight: 400;
   letter-spacing: .5rem;
   text-transform: uppercase;
+}
+
+.title_large {
+  font-size: 5.6rem;
+  font-weight: 900;
+  margin-bottom: 5rem;
 }
 
 /* Image */
@@ -266,10 +273,24 @@ a {
   color: var(--color-primary);
 }
 
+
 a:hover,
 a:focus {
   text-decoration: none;
 }
+
+li.btn_primary {
+  background-color: #5C3B48;
+  padding: .4rem 2rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.btn_primary > a {
+  color: white;
+}
+
+
 
 /* Custom classes */
 

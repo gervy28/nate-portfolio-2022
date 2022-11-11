@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import HomePageHero from "../components/home-page-hero"
 import BlogPostSelector from "../components/blog-post-selector"
 import SkillsSection from "../components/skills-section"
+import VisualPortfolio from "../components/visual-portfolio"
 
 const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -16,6 +17,7 @@ const Home = ({ data, location }) => {
       <HomePageHero />
       <BlogPostSelector></BlogPostSelector>
       <SkillsSection></SkillsSection>
+      <VisualPortfolio></VisualPortfolio>
     </Layout>
   )
 }

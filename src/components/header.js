@@ -38,7 +38,7 @@
         <ul>
           <li className="mobile-hidden" ><a href="#skills">skills</a></li>
           <li className="mobile-hidden"><a href="#">portfolio</a></li>
-          <li><a href="#">contact me</a></li>
+          <li className="btn_primary"><a href="#">contact me</a></li>
         </ul>
       </nav>
     </header>

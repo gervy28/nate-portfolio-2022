@@ -41,7 +41,7 @@
           <span></span>
         </div>
         <div>
-          <h1 className="stretched_title">Nate Gervenak</h1>
+          <h1 className="stretched_title">Nate g. product manager</h1>
           <h2>I'M BUILT TO DRIVE IDEAS FORWARD</h2>
           <p>
             My career objective is to drive efficiently built quality in a 
