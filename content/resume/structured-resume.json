@@ -12,32 +12,37 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"Revitalize Project Bid",
-          "image":"../images/excel-revised-bid.jpg",
-          "description":"this is what I did",
-          "skills":[ "budgeting", "job costing"],
-          "tools":["excel"]
+          "projectName":"Business Analyst 2020 - Present",
+          "description":"The goal of this project was to create a cost-based bid that output KPIs including projected hours and budget. The end result included a user user-friendly interface and all cost assumptions documented and updateable. This also included recommending and adopting naming conventions to improve organization.",
+          "skills":[ "budgeting", "time management"],
+          "tools":["excel", "canva", "zoho"]
         },
         {
           "projectName":"Revitalize Project Bid",
-          "image":"../images/excel-revised-bid.jpg",
-          "description":"this is what I did",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"The goal of this project was to create a cost-based bid that output KPIs including projected hours and budget. The end result included a user user-friendly interface and all cost assumptions documented and updateable. This also included recommending and adopting naming conventions to improve organization.",
           "skills":[ "budgeting", "job costing"],
-          "tools":["excel"]
+          "tools":["excel", "ui/ux"]
         },
         {
-          "projectName":"Revitalize Project Bid",
-          "image":"../images/excel-revised-bid.jpg",
-          "description":"this is what I did",
-          "skills":[ "budgeting", "job costing"],
-          "tools":["excel"]
+          "projectName":"Automate Cutlist Creation",
+          "image": {
+            "src": "../../src/images/nate-sanding-2.jpg"
+          },
+        "description":"We needed a way to connect and integrate design software with physical parts lists and machine-readable parts lists for manufacturing. To help reduce manual data entry errors and to improve efficiencies. I evaluated needs, and programmed an Excel Workbook using Visual Basic to integrate the shop and office systems.",
+          "skills":[ "needs assesment", "software", "programming"],
+          "tools":["excel", "inventor", "visual basic"]
         },
         {
-          "projectName":"Revitalize Project Bid",
-          "image":"../images/excel-revised-bid.jpg",
-          "description":"this is what I did",
-          "skills":[ "budgeting", "job costing"],
-          "tools":["excel"]
+          "projectName":"Deliver Projects With Less Chaos",
+          "image": {
+            "src": "../../src/images/nate-sanding.jpg"
+          },
+          "description":"With growth came more chaos for the owners. I looked for ways to improve communication effectiveness. I did so by helping to grow a culture of proactively addressing problems and more clear communication with clients. The end goal was to spread the owner less thin to give him more opportunities to work on growth.",
+          "skills":[ "communication", "team work"],
+          "tools":["paper", "printers", "clipboards"]
         }
 
       ],
@@ -70,16 +75,38 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"",
-          "image":"",
-          "description":"",
+          "projectName":"SiteFlight 2021 - Present",
+          "image": {
+            "src": ""
+          },
+          "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
+          "skills":["website design", "entrepreneurship"],
+          "tools":["WordPress", "Figma"]
+        },
+        {
+          "projectName":"Client Websites",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"At SiteFlight we build custom websites for companies of various sizes, from small to medium-sized businesses. Over the course of  2022 we built 10 websites for clients and designed more internally. I was responsible for every aspect of the website builds from design, build, and project management.",
           "skills":[],
           "tools":[]
         },
         {
-          "projectName":"",
-          "image":"",
-          "description":"",
+          "projectName":"Internal Design Process",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"I was responsible for defining and documenting our internal company procedures. We follow a 4 step process Discover, Design, Build, and Launch. Each step in that process requires different documentation, including contracts, bids, statements of work, prototypes, and client communication. I was responsible for defining and executing this process.",
+          "skills":[],
+          "tools":[]
+        },
+        {
+          "projectName":"Company Marketing",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"I was responsible for designing, creating and writing the vast majority of marketing content needed for SiteFlight. This included creating Instagram Posts, writing articles for the blog, creating downloadable user manuals, internal website design, building with WordPress, and more.",
           "skills":[],
           "tools":[]
         }
@@ -98,7 +125,7 @@
         "month": 1
       },
       "end": {},
-      "company": "Traditional Cabinetry",
+      "company": "Real Avid",
       "website": "https://"
     },
     {
@@ -114,14 +141,18 @@
       "highlights": [
         {
           "projectName":"",
-          "image":"",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
           "description":"",
           "skills":[],
           "tools":[]
         },
         {
           "projectName":"",
-          "image":"",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
           "description":"",
           "skills":[],
           "tools":[]
@@ -157,14 +188,18 @@
       "highlights": [
         {
           "projectName":"",
-          "image":"",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
           "description":"",
           "skills":[],
           "tools":[]
         },
         {
           "projectName":"",
-          "image":"",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
           "description":"",
           "skills":[],
           "tools":[]

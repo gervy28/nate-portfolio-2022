@@ -102,6 +102,10 @@ body > div:first-child {
   margin: auto;
 }
 
+section {
+  margin-top: 10rem;
+}
+
 /* main {
   margin-inline: auto;
 } */
@@ -285,11 +289,14 @@ a:focus {
   text-decoration: none;
 }
 
-li.btn_primary {
+li.btn_primary,
+a.btn_primary {
   background-color: #5C3B48;
   padding: .4rem 2rem;
   text-transform: uppercase;
   border-radius: 10px;
+  color: white;
+  text-decoration: none;;
 }
 
 .btn_primary > a {

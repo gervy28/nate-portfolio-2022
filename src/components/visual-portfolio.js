@@ -7,79 +7,99 @@
 
  import * as React from "react"
  import * as visualPortfolioStyles from "./visual-portfolio.module.css"
- import JSONData from "../../content/resume/structured-resume.json"
- import { GatsbyImage, getImage } from "gatsby-plugin-image"
+ import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
  import { useStaticQuery, graphql } from "gatsby"
 
  
  const VisualPortfolio = () => {
   // const jobs = JSONData['work'];
   const data = useStaticQuery(graphql`
-    query Resume {
-      resumeJson {
-        work {
-          company
+  query Resume {
+    resumeJson {
+      work {
+        company
+        highlights {
           description
-          endDate
-          startDate
-          logo
-          position
-          name
-          location
-          summary
-          url
-          website
-          reference {
-            review
-            reviewer
-          }
-          highlights {
-            description
-            image
-            projectName
-            skills
-            tools
+          projectName
+          skills
+          tools
+          image {
+            src {
+              childImageSharp {
+                gatsbyImageData(transformOptions: {fit: COVER})
+              }
+            }
           }
         }
       }
     }
+  }
+  
   `)
   
-  const testImage = data.resumeJson.work[0].highlights[0].image
-  const myImage = getImage(testImage);
+  const setBackgroundImage = (src) => {
+    return (
+      <GatsbyImage 
+        image={getImage(src)} 
+        className={visualPortfolioStyles.portfolio_item_background}
+        objectFit="cover">
+      </GatsbyImage>
+    );
+  }
+
+
+  // const testImage = data.resumeJson.work[0].highlights[0]["projectName"]
+  // const myImage = getSrc(testImage);
   
+
 
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
+      {/* <GatsbyImage image={myImage}></GatsbyImage> */}
       <h2 className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
-        {data.resumeJson.work.map(entry => {
-          return (
-            <div>
-              <h3 className="title_stretched">{entry["name"]}</h3>
-              <div className={visualPortfolioStyles.portfolio_items_wrapper}>
-                {entry['highlights'].map(highlight => {
-                  return (
-                    <div className={visualPortfolioStyles.portfolio_item}>
-                      <h4>{highlight.projectName}</h4>
-                      <p>{highlight.description}</p>
-                      <ul>
-                        {highlight['skills'].map(skill => {
-                          return <li>{skill}</li>
-                        })}
-                      </ul>
-                      <ul>
-                        {highlight['tools'].map(tool => {
-                          return <li>{tool}</li>
-                        })}
-                      </ul>
+      {data.resumeJson.work.map(entry => {
+        return (
+          <div>
+            <h3 className="title_stretched">{entry["company"]}</h3>
+            {/* Start Card Wrapper */}
+            <div className={visualPortfolioStyles.portfolio_items_wrapper}>
+              {/* Render the individual card */}
+              {entry['highlights'].map(highlight => {
+                return (
+                  <div className={visualPortfolioStyles.portfolio_item}>
+                    
+                    { highlight.image && setBackgroundImage(highlight.image.src) }
+                    <div className={visualPortfolioStyles.portfolio_item_content_wrap}>
+                      <div>
+                        <h4>{highlight.projectName}</h4>
+                        <p>{highlight.description}</p>
+                      </div>
+                      <div>
+                        <h5>Skills</h5>
+                        <div className={visualPortfolioStyles.tag_container}>
+                          {highlight['skills'].map(skill => {
+                            return <div>{skill}</div>
+                          })}
+                        </div>
+                        <h5>Tools</h5>
+                        <div  className={visualPortfolioStyles.tag_container}>
+                          {highlight['tools'].map(tool => {
+                            return <div>{tool}</div>
+                          })}
+                        </div>
+                      </div>
                     </div>
-                  )
-                })}
+                  </div>
+                )
+              })}
 
-              </div> 
-            </div>
-          )
-        })}
+            </div> 
+          </div>
+        )
+      })}
+      <div>
+        <a className="btn_primary" href="#">Download My Resume</a>
+      </div>
     </section>
    )
  }
