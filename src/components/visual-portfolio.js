@@ -6,6 +6,7 @@
  */
 
  import * as React from "react"
+ import { useRef, createRef } from "react"
  import * as visualPortfolioStyles from "./visual-portfolio.module.css"
  import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
  import { useStaticQuery, graphql } from "gatsby"
@@ -47,6 +48,16 @@
     );
   }
 
+  const scrollableSections = useRef([]);  
+
+  scrollableSections.current = data.resumeJson.work.map((element, i) => 
+    scrollableSections.current[i] ?? createRef()
+  );
+
+  
+  function handleMouseDown(e) {
+    console.log(e);
+  }
 
   // const testImage = data.resumeJson.work[0].highlights[0]["projectName"]
   // const myImage = getSrc(testImage);
@@ -57,17 +68,19 @@
     <section className={visualPortfolioStyles.portfolio_section_container}>
       {/* <GatsbyImage image={myImage}></GatsbyImage> */}
       <h2 className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
-      {data.resumeJson.work.map(entry => {
+      {data.resumeJson.work.map((entry, i) => {
         return (
           <div>
             <h3 className="title_stretched">{entry["company"]}</h3>
-            {/* Start Card Wrapper */}
-            <div className={visualPortfolioStyles.portfolio_items_wrapper}>
+
+            {/* Start Card Wrapper -- where scrolling occurs*/}
+            <div key={i} onMouseDown={() => handleMouseDown(scrollableSections.current[i])} ref={scrollableSections.current[i]} className={visualPortfolioStyles.portfolio_items_wrapper}>
+
               {/* Render the individual card */}
               {entry['highlights'].map(highlight => {
                 return (
                   <div className={visualPortfolioStyles.portfolio_item}>
-                    
+
                     { highlight.image && setBackgroundImage(highlight.image.src) }
                     <div className={visualPortfolioStyles.portfolio_item_content_wrap}>
                       <div>
