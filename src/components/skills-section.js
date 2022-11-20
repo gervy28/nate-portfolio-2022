@@ -38,14 +38,14 @@
    return (
     <section className={skillsSectionStyles.skills_section_container}>
       <h2 className="title_large">I AM GENERALIST WITH HANDS ON EXPEREINCE ACROSS MULTIPLE DOMAINS</h2>
-      {resumeItems(resume).map(item => {
+      {resumeItems(resume).map((item, i) => {
         return (
-          <div className="contained_section">
+          <div key={i} className="contained_section">
             <h3 className="title_stretched">{item.replaceAll("_", " ")}</h3>
               <ol className={skillsSectionStyles.skills_list}>
-              {resume[item].map(entry => {
+              {resume[item].map((entry, i) => {
                 return (
-                  <li>{entry}</li>
+                  <li key={i}>{entry}</li>
                 )
               })}
             </ol>

@@ -1,8 +1,6 @@
 /**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
+ * Contact Info Section: queries and displays contact info 
+ * 
  */
 
  import * as React from "react"
@@ -11,7 +9,6 @@
  
  const ContactInfo = () => {
 
-  // QUERY HERE WILL BE CONTACT INFO
 
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -26,10 +23,9 @@
       }
     }`
   )
-  console.log(data);
 
    return (
-    <section>
+    <section className={contactStyles.contact_section}>
       <h2 className="title_large">Let's Work Together!</h2>
       <div className={`${contactStyles.main_info} ${contactStyles.info}`}>
         <div>

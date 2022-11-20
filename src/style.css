@@ -200,6 +200,33 @@ h6 > a {
   margin-bottom: 5rem;
 }
 
+.bg-svg-top {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  height: 5000px;
+  width: 100vw;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-svg-bottom {
+  display: block;
+  height: 500px;
+  width: 500px;
+  z-index: 1000;
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5000px;
+  width: 100vw;
+  z-index: -1; */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+}
+
+
 /* Image */
 
 img {

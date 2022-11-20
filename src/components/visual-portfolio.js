@@ -37,12 +37,16 @@
   
   `)
   
-  const setBackgroundImage = (src) => {
+  const setBackgroundImage = (src,i) => {
+    if(!src) return; 
+
     return (
       <GatsbyImage 
         image={getImage(src)} 
         className={visualPortfolioStyles.portfolio_item_background}
-        objectFit="cover">
+        objectFit="cover"
+        alt="nate g portfolio img"
+        key={i}>
       </GatsbyImage>
     );
   }
@@ -77,31 +81,23 @@
 
   function handleMouseMove(e, element){
     if(!isScrolling) return;
-
-
-    console.log(startXPos);
-
     e.preventDefault();
     const x = e.pageX - element.current.offsetLeft;
     const walk = (x - startXPos);
-    console.log(walk);
     element.current.scrollLeft = leftPosition - walk;
-    // console.log(walk);
   }
 
 
 
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
-      {/* <GatsbyImage image={myImage}></GatsbyImage> */}
       <h2 className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
       {data.resumeJson.work.map((entry, i) => {
         return (
-          <div>
+          <div key={i}>
             <h3 className="title_stretched">{entry["company"]}</h3>
-
             {/* Start Card Wrapper -- where scrolling occurs*/}
-            <div key={i} 
+            <div
               onMouseDown={(e) => handleMouseDown(e, scrollableSections.current[i])} 
               onMouseLeave={handleMouseLeave}
               onMouseUp={handleMouseUp}
@@ -110,11 +106,10 @@
               className={visualPortfolioStyles.portfolio_items_wrapper}>
 
               {/* Render the individual card */}
-              {entry['highlights'].map(highlight => {
+              {entry['highlights'].map((highlight, i) => {
                 return (
-                  <div className={visualPortfolioStyles.portfolio_item}>
-
-                    { highlight.image && setBackgroundImage(highlight.image.src) }
+                  <div key={i} className={visualPortfolioStyles.portfolio_item}>
+                    { highlight.image && setBackgroundImage(highlight.image.src, i) }
                     <div className={visualPortfolioStyles.portfolio_item_content_wrap}>
                       <div>
                         <h4>{highlight.projectName}</h4>
@@ -123,14 +118,14 @@
                       <div>
                         <h5>Skills</h5>
                         <div className={visualPortfolioStyles.tag_container}>
-                          {highlight['skills'].map(skill => {
-                            return <div>{skill}</div>
+                          {highlight['skills'].map((skill,i) => {
+                            return <div key={i}>{skill}</div>
                           })}
                         </div>
                         <h5>Tools</h5>
                         <div  className={visualPortfolioStyles.tag_container}>
-                          {highlight['tools'].map(tool => {
-                            return <div>{tool}</div>
+                          {highlight['tools'].map((tool,i) => {
+                            return <div key={i} >{tool}</div>
                           })}
                         </div>
                       </div>

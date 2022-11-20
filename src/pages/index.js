@@ -8,17 +8,21 @@ import BlogPostSelector from "../components/blog-post-selector"
 import SkillsSection from "../components/skills-section"
 import VisualPortfolio from "../components/visual-portfolio"
 import ContactInfo from "../components/contact-info"
+import BackgroundImge from "../images/background-pattern.svg"
 
 const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
     <Layout location={location} title={siteTitle}>
-      <HomePageHero />
-      <BlogPostSelector></BlogPostSelector>
-      <SkillsSection></SkillsSection>
+      
+        <HomePageHero />
+        <BlogPostSelector></BlogPostSelector>
+        <SkillsSection></SkillsSection>
       <VisualPortfolio></VisualPortfolio>
       <ContactInfo></ContactInfo>
+      <div className="bg-svg-top" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
+      <div className="bg-svg-bottom" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
     </Layout>
   )
 }
