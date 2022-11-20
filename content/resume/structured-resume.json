@@ -225,39 +225,57 @@
   ],
   "projects":[
     {
-      "title":"Dead On Gaming",
-      "year":"2022",
-      "img":"",
-      "description":"",
-      "tools":["Amazon"]
+      "projectName":"Dead On Gaming",
+      "image": {
+        "src": ""
+      },
+      "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
+      "skills":["website design", "entrepreneurship"],
+      "tools":["WordPress", "Figma"]
     },
     {
-      "title":"JoContractor",
-      "year":"2022",
-      "img":"",
+      "projectName":"JoContractor",
+      "image": {
+        "src": ""
+      },
       "description":"",
-      "tools":["Figma","React","Ionic"]
+      "skills":["website design", "entrepreneurship"],
+      "tools":["React", "Figma", "Ionic"]
     },
     {
-      "title":"Vanlife.Pupil",
-      "year":"2020",
-      "img":"",
-      "description":"",
-      "tools":["PHP","Laravel","Vue.JS"]
+      "projectName":"Vanlife.Pupil",
+      "image": {
+        "src": ""
+      },
+      "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
+      "skills":["website design", "entrepreneurship"],
+      "tools":["WordPress", "Figma"]
     },
     {
-      "title":"WeFish",
-      "year":"2013",
-      "img":"",
-      "description":"",
-      "tools":["WordPress", "WireFrames", "Entrepreneurship"]
+      "projectName":"WeFish",
+      "image": {
+        "src": ""
+      },
+      "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
+      "skills":["website design", "entrepreneurship"],
+      "tools":["WordPress", "Figma"]
     },
     {
-      "title":"Surviving With Gerv",
-      "year":"2013",
-      "img":"",
-      "description":"",
-      "tools":["Sales", "Project Management", "Entrepreneurship"]
+      "projectName":"Surviving With Gerv",
+      "image": {
+        "src": ""
+      },
+      "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
+      "skills":["website design", "entrepreneurship"],
+      "tools":["WordPress", "Figma"]
     }
-  ]
+  ],
+  "contact":
+  {
+    "phone": "(406) 595-7520",
+    "email": "gervenaknate@gmail.com",
+    "linkedin":"https://www.linkedin.com/in/nategervenak",
+    "stackoverflow":"https://stackoverflow.com/users/7381790/nate-gervenak",
+    "github":"https://github.com/gervy28" 
+  }
 }

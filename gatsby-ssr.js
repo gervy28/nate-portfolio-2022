@@ -19,6 +19,12 @@ const HeadComponents = [
   <link rel ="preload" href="/fonts/palanquin-v13-latin-regular.ttf" as="font" type="font/ttf" crossOrigin="annonymous" key="palanquinFont" />,
   <link rel ="preload" href="/fonts/palanquin-v13-latin-regular.woff" as="font" type="font/woff" crossOrigin="annonymous" key="palanquinFont" />,
   <link rel ="preload" href="/fonts/palanquin-v13-latin-regular.woff2" as="font" type="font/woff2" crossOrigin="annonymous" key="palanquinFont" />,
+  <link rel ="preload" href="/fonts/icomoon.eot" as="font" type="font/eot" crossOrigin="annonymous" key="icomoonFont" />,
+  <link rel ="preload" href="/fonts/icomoon.woff" as="font" type="font/woff" crossOrigin="annonymous" key="icomoonFont" />,
+  <link rel ="preload" href="/fonts/icomoon.svg" as="font" type="font/svg" crossOrigin="annonymous" key="icomoonFont" />,
+  <link rel ="preload" href="/fonts/icomoon.ttf" as="font" type="font/ttf" crossOrigin="annonymous" key="icomoonFont" />,
+  
+
 ]
 
 

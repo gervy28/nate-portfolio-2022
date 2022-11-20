@@ -1,0 +1,41 @@
+h2 {
+  text-align: center;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.main_info{
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.link_info {
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.info a {
+  text-decoration: none;
+  display: flex;
+  gap: .5rem;
+
+}
+
+.main_info a {
+  flex-direction: row;
+}
+
+.link_info a {
+  flex-direction: column;
+}
+
+.info a>span {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
