@@ -204,26 +204,41 @@ h6 > a {
   position: absolute;
   top: -5px;
   right: 0;
-  height: 5000px;
+  height: 255vh;
   width: 100vw;
   z-index: -1;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.bg-main-middle {
+  position: absolute;
+  z-index: -1;
+  top: 240vh;
+  right: 0;
+  height: 300VH;
+  width: 100vw;
+  background-color: var(--color-primary);
+}
+
+.bg-svg-bottom-containter{
+  display: block;
+  position: relative;
+  height: 1px;
+
 }
 
 .bg-svg-bottom {
-  display: block;
-  height: 500px;
-  width: 500px;
-  z-index: 1000;
-  /* position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 5000px;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: -1;
+  bottom: -80px;
+  right: 0;
+  height: 300vh;
   width: 100vw;
-  z-index: -1; */
-  /* background-repeat: no-repeat; */
-  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
 }
 
 

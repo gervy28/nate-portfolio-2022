@@ -22,7 +22,10 @@ const Home = ({ data, location }) => {
       <VisualPortfolio></VisualPortfolio>
       <ContactInfo></ContactInfo>
       <div className="bg-svg-top" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
-      <div className="bg-svg-bottom" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
+      <div className="bg-main-middle"></div>
+      <div className="bg-svg-bottom-containter">
+        <div className="bg-svg-bottom" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
+      </div>
     </Layout>
   )
 }
