@@ -26,7 +26,7 @@
 
    return (
     <section className={contactStyles.contact_section}>
-      <h2 className="title_large">Let's Work Together!</h2>
+      <h2 id="contact" className="title_large">Let's Work Together!</h2>
       <div className={`${contactStyles.main_info} ${contactStyles.info}`}>
         <div>
           <a href={`tel:${data.resumeJson.contact.phone}`}><span className="icon-phone"></span>{data.resumeJson.contact.phone}</a>

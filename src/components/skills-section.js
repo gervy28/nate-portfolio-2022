@@ -37,7 +37,7 @@
  
    return (
     <section className={skillsSectionStyles.skills_section_container}>
-      <h2 className="title_large">I AM GENERALIST WITH HANDS ON EXPEREINCE ACROSS MULTIPLE DOMAINS</h2>
+      <h2 id="skills" className="all-caps">I am a generalist with hands on expereince across multiple domains</h2>
       {resumeItems(resume).map((item, i) => {
         return (
           <div key={i} className="contained_section">

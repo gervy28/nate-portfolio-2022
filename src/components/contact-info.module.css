@@ -2,40 +2,39 @@
   text-align: center;
 }
 
-.info{
+.info {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 5rem;
+  padding: 2rem;
 }
 
-.main_info{
+.main_info {
   flex-direction: column;
-  gap: 2rem;
+  gap: 2rem; 
+  font-size: 1.7rem;
 }
 
 .link_info {
   flex-direction: row;
-  gap: 5rem;
+  gap: 7%;
 }
 
 .info a {
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
   gap: .5rem;
-
-}
-
-.main_info a {
-  flex-direction: row;
 }
 
 .link_info a {
   flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
 }
 
-.info a>span {
-  color: black;
-  font-size: 2rem;
-  text-align: center;
+.link_info a > span {
+  font-size: 1.7rem;
+  margin: auto;
 }
+

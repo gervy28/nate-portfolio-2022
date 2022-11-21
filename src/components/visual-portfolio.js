@@ -91,7 +91,7 @@
 
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
-      <h2 className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
+      <h2 id="portfolio" className="title_large">A FOUNDATION IN 'INTRA' AND 'ENTRE' - PRENEURSHIP</h2>
       {data.resumeJson.work.map((entry, i) => {
         return (
           <div key={i}>

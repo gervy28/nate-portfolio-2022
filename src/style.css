@@ -1,6 +1,9 @@
 
 
 :root {
+  --turn-off-mobile-here: 747px;
+  --turn-off-table-here: 1000px;
+  --most-common-desktop-width: 1200px; 
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem; 
   --maxWidth-sm: 24rem;
@@ -102,13 +105,15 @@ body > div:first-child {
   margin: auto;
 }
 
+/* .global-wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
 section {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
-/* main {
-  margin-inline: auto;
-} */
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
@@ -120,7 +125,33 @@ hr {
   border: 0;
 }
 
-/* Heading */
+/* Fonts */
+
+/* custom font classes */
+.all-caps {
+  text-transform: uppercase;
+}
+
+
+
+.three-d-black{
+  text-shadow: 
+      -2px 1px 1px rgb(75, 75, 75),
+      -2px 2px 1px rgb(75, 75, 75),
+      -2px 3px 1px rgb(75, 75, 75),
+      -2px 5px 1px rgb(75, 75, 75),
+      -2px 4px 1px rgb(75, 75, 75),
+      -2px 6px 1px rgb(75, 75, 75),
+      -2px 7px 1px rgb(75, 75, 75),
+      -2px 8px 1px rgb(75, 75, 75),
+      -2px 9px 1px rgb(75, 75, 75),
+      -2px 10px 1px rgb(75, 75, 75),
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+}
+
 
 h1,
 h2,
@@ -130,7 +161,7 @@ h5,
 h6 {
   font-family: var(--font-heading);
   margin-top: var(--spacing-2);
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-1);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;
 }
@@ -151,7 +182,9 @@ h1 {
 }
 
 h2 {
-  font-size: var(--fontSize-5);
+  font-size: 7vw;
+  font-weight: 900;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -184,20 +217,13 @@ h6 > a {
   color: inherit;
 }
 
-.stretched_title,
 .title_stretched {
   font-family: Jost;
-  font-size: 1.75rem;
+  font-size: 1rem;
   margin: 0;
   font-weight: 400;
   letter-spacing: .5rem;
   text-transform: uppercase;
-}
-
-.title_large {
-  font-size: 5.6rem;
-  font-weight: 900;
-  margin-bottom: 5rem;
 }
 
 .bg-svg-top {
@@ -240,6 +266,7 @@ h6 > a {
   background-size: 100% 100%;
   background-color: white;
 }
+
 
 
 /* Image */
@@ -322,7 +349,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: black;
 }
 
 
@@ -437,4 +464,26 @@ a.btn_primary {
   .mobile-hidden{
     display: none !important;
   }
+}
+
+
+/* these styles only apply on screens above 750px aka Tablet*/
+@media all and (min-width: 750px){
+  .title_stretched{
+    font-size: 1.5rem;
+  }
+
+  h2 {  
+    margin-bottom: 4rem;
+  }
+  
+
+  section {
+    margin-top: 10rem;
+  }
+}
+
+
+/* These styles ONLY apply on screens above 1200px aka Desktop*/
+@media all and (min-width: 1200px ){
 }

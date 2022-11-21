@@ -10,8 +10,7 @@
   list-style: none;
   gap: .5rem;
   align-items: center;
-  justify-content: start;
-
+  justify-content: center;
 }
 
 .skills_list > li {
@@ -21,4 +20,18 @@
   border: 1px solid black;
   align-items: center;
   text-align: center;
+}
+
+
+/* these styles only apply on screens above 750px aka Tablet*/
+@media all and (min-width: 750px){
+
+}
+
+
+/* These styles ONLY apply on screens above 1200px aka Desktop*/
+@media all and (min-width: 1200px ){
+  .skills_list {
+    justify-content: start;
+  }
 }
