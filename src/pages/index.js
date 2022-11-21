@@ -14,11 +14,10 @@ const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
-    <Layout location={location} title={siteTitle}>
-      
-        <HomePageHero />
-        <BlogPostSelector></BlogPostSelector>
-        <SkillsSection></SkillsSection>
+    <Layout location={location} title={siteTitle}>  
+      <HomePageHero />
+      <BlogPostSelector></BlogPostSelector>
+      <SkillsSection></SkillsSection>
       <VisualPortfolio></VisualPortfolio>
       <ContactInfo></ContactInfo>
       <div className="bg-svg-top" style={{backgroundImage: `url(${BackgroundImge})`}}></div>
