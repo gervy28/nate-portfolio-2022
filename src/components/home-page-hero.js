@@ -41,14 +41,13 @@
           <span></span>
         </div>
         <div>
-          <h1 className="title_stretched">Nate g. product manager</h1>
-          <h2>I'M BUILT TO DRIVE IDEAS FORWARD</h2>
+          <h1 className="title_stretched">make: gervenak - model: nate</h1>
+          <h2>BUILT TO CREATE TOOLS USERS WANT</h2>
           <p>
-            My career objective is to drive efficiently built quality in a 
-            diverse team of engineers, designers, marketers, sales people, and 
-            executives to bridge the gap between raw-idea and functioning product. 
-            I’ll do this by articulating requirements, making clear decisions, removing 
-            barriers, and eliciting feedback. 
+          My diverse background in entrepreneurship, intrapreneurship, design, 
+          web development, and business development gives me a strong 
+          understanding of what it takes to make new products. I'm focused 
+          on rapidly creating user-centric products that drive business results. 
           </p>
         </div>
       </div>

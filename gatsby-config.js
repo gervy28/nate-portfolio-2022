@@ -14,10 +14,10 @@ module.exports = {
       twitter: `gervy28`,
     },
     resume: {
-      technology_skills: [ "web design", "web development", "ui/ux", "research", "financial planning"  ],
-      knowledge_domains: [ "business development", "marketing", "analytics", "seo" ],
-      tools: [ "Excel", "Figma" ,"HubSpot", "JavaScript", "WordPress", "PHP", "Git" ],
-      soft_skills: [ "team orientation", "communication", "creativity", "growth minded" ],
+      technology_skills: [ "Prototyping", "Wire Framing", "API (REST)", "JavaScript", "CSS", "PHP", "MySQL", "UX Design", "Git", "Excel"],
+      knowledge_domains: [ "Product Strategy", "Product Marketing", "Pricing", "Project Management", "Market Research", "Data Analysis", "Financial Planning" ],
+      tools: [ "Excel", "Figma" ,"HubSpot", "WordPress", "GitHub", "Visual Studio", "Linux", "DNS"],
+      soft_skills: [ "Written Communication", "Verbal Communication", "Internal Drive", "Adaptability", "Organization", "Creativity"  ],
     }
   },
   plugins: [
