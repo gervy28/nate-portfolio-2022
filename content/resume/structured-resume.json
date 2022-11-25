@@ -12,39 +12,56 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"Business Analyst 2020 - Present",
-          "description":"The goal of this project was to create a cost-based bid that output KPIs including projected hours and budget. The end result included a user user-friendly interface and all cost assumptions documented and updateable. This also included recommending and adopting naming conventions to improve organization.",
-          "skills":[ "budgeting", "time management"],
+          "projectName":"An Untitled Assistant at TC",
+          "description":"Traditional Cabinetry produces some of the most high-quality cabinetry in Central, MN. They are a small company that is beginning to take on new ventures and improve its core business. I started working in the shop but moved into the office to help with scheduling and shop efficiency. Overall, the people here are fantastic and the quality of their work should be known nationwide.",
+          "skills":[ "project management", "communication"],
           "tools":["excel", "canva", "zoho"]
         },
         {
-          "projectName":"Revitalize Project Bid",
+          "projectName":"Lead New Initiatives",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/tc-logo.jpg"
           },
-          "description":"The goal of this project was to create a cost-based bid that output KPIs including projected hours and budget. The end result included a user user-friendly interface and all cost assumptions documented and updateable. This also included recommending and adopting naming conventions to improve organization.",
+          "description":"Identified, led, road mapped, and implemented 14 new initiatives to help our team reduce the feeling of chaos in the product delivery pipeline, to improve the efficiency of operations, and to promote a higher level of business acumen among owners.",
           "skills":[ "budgeting", "job costing"],
           "tools":["excel", "ui/ux"]
         },
         {
-          "projectName":"Automate Cutlist Creation",
+          "projectName":"Created Project Management Process",
           "image": {
-            "src": "../../src/images/nate-sanding-2.jpg"
+            "src": "../../src/images/incomplete-project-wall.jpg"
           },
-        "description":"We needed a way to connect and integrate design software with physical parts lists and machine-readable parts lists for manufacturing. To help reduce manual data entry errors and to improve efficiencies. I evaluated needs, and programmed an Excel Workbook using Visual Basic to integrate the shop and office systems.",
-          "skills":[ "needs assesment", "software", "programming"],
-          "tools":["excel", "inventor", "visual basic"]
+        "description":"Created, implemented, and managed a project management system that functioned to communicate project timelines, proactively identity project bottle necks, prioritize tasks, and deliver projects within their scheduled amount of time",
+          "skills":[ "management", "communication", "dashboards"],
+          "tools":["excel"]
         },
         {
-          "projectName":"Deliver Projects With Less Chaos",
+          "projectName":"Analyzed Pricing Structure",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"Analyzed marketplace price points and company costs to create a pricing strategy and bid documents that helped increase the owner's confidence in project estimates.",
+          "skills":[ "financial analysis", "cost analysis"],
+          "tools":[ "financial statements", "excel"]
+        },
+        {
+          "projectName":"Promoted Proactive Communication",
           "image": {
             "src": "../../src/images/nate-sanding.jpg"
           },
-          "description":"With growth came more chaos for the owners. I looked for ways to improve communication effectiveness. I did so by helping to grow a culture of proactively addressing problems and more clear communication with clients. The end goal was to spread the owner less thin to give him more opportunities to work on growth.",
-          "skills":[ "communication", "team work"],
-          "tools":["paper", "printers", "clipboards"]
+          "description":"Promoted a culture of proactivity, open communication, documentation, and consistent communication across teams.",
+          "skills":[ "communication"],
+          "tools":["microsoft office", "zoho", "jokes"]
+        },
+        {
+          "projectName":"Automated Cutlist Generation",
+          "image": {
+            "src": "../../src/images/vba.jpg"
+          },
+          "description":"Removed data entry labor and decreased errors caused by manual data entry by gathering requirements, creating, and maintaining an excel macro programming with visual basic.",
+          "skills":[ "visual basic programming", "requirements gathering"],
+          "tools":[ "inventor", "excel"]
         }
-
       ],
       "reference": [
         {
@@ -75,40 +92,58 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"SiteFlight 2021 - Present",
+          "projectName":"Owner at SiteFlight",
           "image": {
-            "src": ""
+            "src": "../../src/images/Untitled design.png"
           },
-          "description":"SiteFlight is a website design and build a company that I own (consider it freelance work). It started as a drone photography business that shifted into a website design business by identifying and responding to customer needs and internal skills. SiteFlight is still running as a side project to help me build website design and marketing skills.",
-          "skills":["website design", "entrepreneurship"],
-          "tools":["WordPress", "Figma"]
+          "description":"SiteFlight is a small web design company that focuses on building websites for small and medium sized businesses. Their design process incorporates Discover, Design, Build, and Launch to help create websites that express the personality behind the company.",
+          "skills":["web design", "stakeholder management"],
+          "tools":["WordPress", "Figma", "GitHub"]
         },
         {
-          "projectName":"Client Websites",
+          "projectName":"Designed Client Websites",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/3-desktop-ropi-sf-lp.png"
           },
-          "description":"At SiteFlight we build custom websites for companies of various sizes, from small to medium-sized businesses. Over the course of  2022 we built 10 websites for clients and designed more internally. I was responsible for every aspect of the website builds from design, build, and project management.",
-          "skills":[],
-          "tools":[]
+          "description":"Worked with important external project stakeholders to propose ideas, define requirements, and achieve success on 11 WordPress websites that drive over 28,000 monthly search impressions.",
+          "skills":["research","stakeholder management"],
+          "tools":["figma", "seo tools"]
         },
         {
-          "projectName":"Internal Design Process",
+          "projectName":"Made Data-Backed Decisions",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/analytics.jpg"
           },
-          "description":"I was responsible for defining and documenting our internal company procedures. We follow a 4 step process Discover, Design, Build, and Launch. Each step in that process requires different documentation, including contracts, bids, statements of work, prototypes, and client communication. I was responsible for defining and executing this process.",
-          "skills":[],
-          "tools":[]
+          "description":"Conducted quantitative and qualitative user research that led to data-driven decisions that helped produce requirements, goals, scope, and budget for client website projects.",
+          "skills":["date-driven decisions", "research"],
+          "tools":["Google Analytics", "Library"]
         },
         {
-          "projectName":"Company Marketing",
+          "projectName":"Deployed WP Plugins",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/code.jpg"
           },
-          "description":"I was responsible for designing, creating and writing the vast majority of marketing content needed for SiteFlight. This included creating Instagram Posts, writing articles for the blog, creating downloadable user manuals, internal website design, building with WordPress, and more.",
-          "skills":[],
-          "tools":[]
+          "description":"Designed and programmed various plugins with PHP, JavaScript, and CSS that utilized WordPress' API to achieve custom functionality on client websites.",
+          "skills":["php", "javascript", "css"],
+          "tools":["visual studio", "github", "wordpress"]
+        },
+        {
+          "projectName":"Created The Design Process",
+          "image": {
+            "src": "../../src/images/design.jpg"
+          },
+          "description":"Formulated and executed a design process that included conducting market research, building prototypes with Figma, building the website, and utilizing version control on GitHub.",
+          "skills":["experimentation", "research", "documentation"],
+          "tools":["figma", "microsoft office"]
+        },
+        {
+          "projectName":"Determined Pricing Structure",
+          "image": {
+            "src": "../../src/images/site-flight-website.jpg"
+          },
+          "description":"Evaluated competitor pricing and internal process to create a competitive pricing strategy.",
+          "skills":["price analysis", "strategic thinking"],
+          "tools":["excel"]
         }
       ],
       "reference": [
@@ -140,22 +175,58 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"",
+          "projectName":"Founder/Owner At YPS",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": ""
           },
-          "description":"",
-          "skills":[],
-          "tools":[]
+          "description":"Yellowstone Pavement Solutions operates out of two of the most well-known areas in Montana. They are a well-managed company that performs pavement maintenance tasks in the most well-respected places in the nation, including Yellowstone National Park, the National Institute of Health, and Airforce Bases across Montana.",
+          "skills":["leadership", "strategy"],
+          "tools":["grit","adapatability"]
         },
         {
-          "projectName":"",
+          "projectName":"Created Competitive Pricing",
           "image": {
             "src": "../../src/images/excel-revised-bid.jpg"
           },
-          "description":"",
-          "skills":[],
-          "tools":[]
+          "description":"Worked with my business partner to evaluate competitor prices and create an introductory pricing structure that helped to grow the businesses from 150K revenue in year one to over 550k in year two",
+          "skills":["data-analysis","strategic decision-making"],
+          "tools":["excel", "networking"]
+        },
+        {
+          "projectName":"Created Data-Based Strategy",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"Made data-driven strategic decisions for various functions including equipment purchasing, growth planning, marketing strategy, operations, and sales strategy.",
+          "skills":["financial planning", "product positioning"],
+          "tools":["excel", "communication"]
+        },
+        {
+          "projectName":"Built a 5-Star Reputation",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"Earned a strong, 5 star, reputation with commercial, state government, federal government, and residential clients by building solid rapport and exceeding stakeholder expectations.",
+          "skills":["communication", "empathy"],
+          "tools":["google my business", "g-suite"]
+        },
+        {
+          "projectName":"Drove Efficient Processes",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"Increased the daily production capacity of residential crews from $4,000/day to $10,000/day by evaluating and improving the processes used to complete projects in an efficient manner.",
+          "skills":["data-analysis", "cost-analysis", "research"],
+          "tools":["excel"]
+        },
+        {
+          "projectName":"Defined Componenets of Culture",
+          "image": {
+            "src": "../../src/images/excel-revised-bid.jpg"
+          },
+          "description":"Led employee management practices that helped to clearly define employee expectations and create a clear path for progression.",
+          "skills":["management", "empathy"],
+          "tools":["microsoft office"]
         }
       ],
       "reference": [
@@ -177,7 +248,7 @@
     },
     {
       "name": "Real Avid",
-      "location": "Brainerd, MN",
+      "location": "Plymouth, MN",
       "description": "This is a test description",
       "position": "Business Analyst",
       "url": "https://traditional-cabinetry.com",
@@ -187,22 +258,40 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"",
+          "projectName":"Marketing Analyst",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": ""
           },
-          "description":"",
+          "description":"Real Avid creates very user-conscious tools for the outdoorsman. They obsessed over the user's experience of their products and have transformed several markets within their industry due to their obsession. They experienced substantial growth in the years during and following my departure. To this day, I still have the \"Good Luck\" poster that, upon my resignation, the chief engineer made for me hanging in my room.",
           "skills":[],
           "tools":[]
         },
         {
-          "projectName":"",
+          "projectName":"Made Happy Customers",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/real-avid-product-direction.jpg"
           },
-          "description":"",
-          "skills":[],
-          "tools":[]
+          "description":"Analyzed market trends and consumer data to make data-driven recommendations for 8 new products that have cumulatively acquired over 7,000 reviews on Amazon.",
+          "skills":["data analytics", "market research"],
+          "tools":["Amazon Analytics", "Vine", "Excel"]
+        },
+        {
+          "projectName":"Created KPI Dashboards",
+          "description":"Took ownership over the company's presence on Amazon by implementing a KPI tracking dashboard, A/B testing content, proactively managing catalog emergencies, launching an Amazon Brand Store, creating A+ content, and participating in Amazon experiments",
+          "image": {
+            "src": "../../src/images/real-avid-image-direction.jpg"
+          },
+          "skills":["data analytics", "market research"],
+          "tools":["Amazon Analytics", "Vine", "Excel"]
+        },
+        {
+          "projectName":"Evaluated User Experiences",
+          "image": {
+            "src": "../../src/images/cabelas.jpg"
+          },
+          "description":"Conducted market research to determine the best way to communicate the value of products across our entire ecommerce presence, including Amazon, Cabelas, and WalMart",
+          "skills":["data analytics", "market research"],
+          "tools":["Amazon Analytics", "Vine", "Excel"]
         }
       ],
       "reference": [

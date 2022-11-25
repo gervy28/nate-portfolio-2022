@@ -18,7 +18,7 @@
              technology_skills,
              knowledge_domains,
              tools,
-             soft_skills
+             soft_skills1
            }
          }
        }
@@ -37,7 +37,7 @@
  
    return (
     <section className={skillsSectionStyles.skills_section_container}>
-      <h2 id="skills" className="all-caps">MODEL INCLUDES GENERALIST SKILLS FOR CROSS-FUNCTIONAL MANEUVERABILITY</h2>
+      <h2 id="skills" className="all-caps">MODEL N8 INCLUDES GENERALIST SKILLS FOR CROSS-FUNCTIONAL MANEUVERABILITY</h2>
       {resumeItems(resume).map((item, i) => {
         return (
           <div key={i} className="contained_section">

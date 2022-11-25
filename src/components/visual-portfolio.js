@@ -91,7 +91,7 @@
 
    return (
     <section className={visualPortfolioStyles.portfolio_section_container}>
-      <h2 id="portfolio" className="title_large">I'VE BEEN TESTED ACROSS VARIOUS ROLES</h2>
+      <h2 id="portfolio" className="title_large">N8 IS TESTED ACROSS VARIOUS ROLES</h2>
       {data.resumeJson.work.map((entry, i) => {
         return (
           <div key={i}>
