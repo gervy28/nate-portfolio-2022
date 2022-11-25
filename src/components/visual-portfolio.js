@@ -140,7 +140,7 @@
         )
       })}
       <div>
-        <a className="btn_primary" href="/resume-2022-pm-112522.pdf">Download My Resume</a>
+        <a className="btn_primary" target="_blank" href="/resume-2022-pm-112522.pdf">Download My Resume</a>
       </div>
     </section>
    )
