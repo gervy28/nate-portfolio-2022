@@ -8,8 +8,8 @@ module.exports = {
       phone: ``,
       location: ``
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Nate Gervenak's portfolio website`,
+    siteUrl: `https://nategervenak.com`,
     social: {
       twitter: `gervy28`,
     },
@@ -34,6 +34,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `resume`,
+        path: `${__dirname}/content/resume`,
       },
     },
     {
@@ -123,15 +130,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Nate Gervenak Porfolio`,
+        short_name: `Meet N8`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/initials.png`, // This path is relative to the root of the site.
       },
     },
   ],

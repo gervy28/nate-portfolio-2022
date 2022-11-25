@@ -18,7 +18,7 @@
              technology_skills,
              knowledge_domains,
              tools,
-             soft_skills1
+             soft_skills
            }
          }
        }

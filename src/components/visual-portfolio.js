@@ -17,7 +17,7 @@
   query Resume {
     resumeJson {
       work {
-        company
+        name
         highlights {
           description
           projectName
@@ -36,6 +36,7 @@
   }
   
   `)
+
   
   const setBackgroundImage = (src,i) => {
     if(!src) return; 
@@ -139,7 +140,7 @@
         )
       })}
       <div>
-        <a className="btn_primary" href="#">Download My Resume</a>
+        <a className="btn_primary" href="/resume-2022-pm-112522.pdf">Download My Resume</a>
       </div>
     </section>
    )

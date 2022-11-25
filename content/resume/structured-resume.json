@@ -12,10 +12,10 @@
       "summary": "",
       "highlights": [
         {
-          "projectName":"An Untitled Assistant at TC",
+          "projectName":"Business Analyst at TC",
           "description":"Traditional Cabinetry produces some of the most high-quality cabinetry in Central, MN. They are a small company that is beginning to take on new ventures and improve its core business. I started working in the shop but moved into the office to help with scheduling and shop efficiency. Overall, the people here are fantastic and the quality of their work should be known nationwide.",
           "skills":[ "project management", "communication"],
-          "tools":["excel", "canva", "zoho"]
+          "tools":["Excel", "Canva", "Zoho"]
         },
         {
           "projectName":"Lead New Initiatives",
@@ -24,7 +24,7 @@
           },
           "description":"Identified, led, road mapped, and implemented 14 new initiatives to help our team reduce the feeling of chaos in the product delivery pipeline, to improve the efficiency of operations, and to promote a higher level of business acumen among owners.",
           "skills":[ "budgeting", "job costing"],
-          "tools":["excel", "ui/ux"]
+          "tools":["Excel"]
         },
         {
           "projectName":"Created Project Management Process",
@@ -33,7 +33,7 @@
           },
         "description":"Created, implemented, and managed a project management system that functioned to communicate project timelines, proactively identity project bottle necks, prioritize tasks, and deliver projects within their scheduled amount of time",
           "skills":[ "management", "communication", "dashboards"],
-          "tools":["excel"]
+          "tools":["Excel"]
         },
         {
           "projectName":"Analyzed Pricing Structure",
@@ -42,7 +42,7 @@
           },
           "description":"Analyzed marketplace price points and company costs to create a pricing strategy and bid documents that helped increase the owner's confidence in project estimates.",
           "skills":[ "financial analysis", "cost analysis"],
-          "tools":[ "financial statements", "excel"]
+          "tools":[ "financial statements", "Excel"]
         },
         {
           "projectName":"Promoted Proactive Communication",
@@ -51,7 +51,7 @@
           },
           "description":"Promoted a culture of proactivity, open communication, documentation, and consistent communication across teams.",
           "skills":[ "communication"],
-          "tools":["microsoft office", "zoho", "jokes"]
+          "tools":["Microsoft Office", "Zoho", "jokes"]
         },
         {
           "projectName":"Automated Cutlist Generation",
@@ -60,7 +60,7 @@
           },
           "description":"Removed data entry labor and decreased errors caused by manual data entry by gathering requirements, creating, and maintaining an excel macro programming with visual basic.",
           "skills":[ "visual basic programming", "requirements gathering"],
-          "tools":[ "inventor", "excel"]
+          "tools":[ "Inventor", "Excel"]
         }
       ],
       "reference": [
@@ -107,7 +107,7 @@
           },
           "description":"Worked with important external project stakeholders to propose ideas, define requirements, and achieve success on 11 WordPress websites that drive over 28,000 monthly search impressions.",
           "skills":["research","stakeholder management"],
-          "tools":["figma", "seo tools"]
+          "tools":["Figma", "seo tools"]
         },
         {
           "projectName":"Made Data-Backed Decisions",
@@ -125,7 +125,7 @@
           },
           "description":"Designed and programmed various plugins with PHP, JavaScript, and CSS that utilized WordPress' API to achieve custom functionality on client websites.",
           "skills":["php", "javascript", "css"],
-          "tools":["visual studio", "github", "wordpress"]
+          "tools":["Visual Studio", "Github", "WordPress"]
         },
         {
           "projectName":"Created The Design Process",
@@ -134,7 +134,7 @@
           },
           "description":"Formulated and executed a design process that included conducting market research, building prototypes with Figma, building the website, and utilizing version control on GitHub.",
           "skills":["experimentation", "research", "documentation"],
-          "tools":["figma", "microsoft office"]
+          "tools":["Figma", "Microsoft Office"]
         },
         {
           "projectName":"Determined Pricing Structure",
@@ -143,7 +143,7 @@
           },
           "description":"Evaluated competitor pricing and internal process to create a competitive pricing strategy.",
           "skills":["price analysis", "strategic thinking"],
-          "tools":["excel"]
+          "tools":["Excel"]
         }
       ],
       "reference": [
@@ -186,47 +186,47 @@
         {
           "projectName":"Created Competitive Pricing",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/yps-1.jpg"
           },
           "description":"Worked with my business partner to evaluate competitor prices and create an introductory pricing structure that helped to grow the businesses from 150K revenue in year one to over 550k in year two",
           "skills":["data-analysis","strategic decision-making"],
-          "tools":["excel", "networking"]
+          "tools":["Excel", "networking"]
         },
         {
           "projectName":"Created Data-Based Strategy",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/yps-start.jpg"
           },
           "description":"Made data-driven strategic decisions for various functions including equipment purchasing, growth planning, marketing strategy, operations, and sales strategy.",
           "skills":["financial planning", "product positioning"],
-          "tools":["excel", "communication"]
+          "tools":["Excel", "communication"]
         },
         {
           "projectName":"Built a 5-Star Reputation",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/yps-review-block.jpg"
           },
           "description":"Earned a strong, 5 star, reputation with commercial, state government, federal government, and residential clients by building solid rapport and exceeding stakeholder expectations.",
           "skills":["communication", "empathy"],
-          "tools":["google my business", "g-suite"]
+          "tools":["Google My Business", "G-Suite"]
         },
         {
           "projectName":"Drove Efficient Processes",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/yps-stream-machine.jpg"
           },
           "description":"Increased the daily production capacity of residential crews from $4,000/day to $10,000/day by evaluating and improving the processes used to complete projects in an efficient manner.",
           "skills":["data-analysis", "cost-analysis", "research"],
-          "tools":["excel"]
+          "tools":["Excel"]
         },
         {
           "projectName":"Defined Componenets of Culture",
           "image": {
-            "src": "../../src/images/excel-revised-bid.jpg"
+            "src": "../../src/images/yps-holder.jpg"
           },
           "description":"Led employee management practices that helped to clearly define employee expectations and create a clear path for progression.",
           "skills":["management", "empathy"],
-          "tools":["microsoft office"]
+          "tools":["Microsoft Office"]
         }
       ],
       "reference": [
@@ -263,8 +263,8 @@
             "src": ""
           },
           "description":"Real Avid creates very user-conscious tools for the outdoorsman. They obsessed over the user's experience of their products and have transformed several markets within their industry due to their obsession. They experienced substantial growth in the years during and following my departure. To this day, I still have the \"Good Luck\" poster that, upon my resignation, the chief engineer made for me hanging in my room.",
-          "skills":[],
-          "tools":[]
+          "skills":["ecommerce", "research", "product development"],
+          "tools":["Excel", "Amazon Analytics"]
         },
         {
           "projectName":"Made Happy Customers",
@@ -273,7 +273,7 @@
           },
           "description":"Analyzed market trends and consumer data to make data-driven recommendations for 8 new products that have cumulatively acquired over 7,000 reviews on Amazon.",
           "skills":["data analytics", "market research"],
-          "tools":["Amazon Analytics", "Vine", "Excel"]
+          "tools":["Amazon Analytics", "Excel"]
         },
         {
           "projectName":"Created KPI Dashboards",
@@ -281,8 +281,8 @@
           "image": {
             "src": "../../src/images/real-avid-image-direction.jpg"
           },
-          "skills":["data analytics", "market research"],
-          "tools":["Amazon Analytics", "Vine", "Excel"]
+          "skills":["data analytics", "testing"],
+          "tools":["Amazon Analytics", "Excel"]
         },
         {
           "projectName":"Evaluated User Experiences",
@@ -290,8 +290,17 @@
             "src": "../../src/images/cabelas.jpg"
           },
           "description":"Conducted market research to determine the best way to communicate the value of products across our entire ecommerce presence, including Amazon, Cabelas, and WalMart",
-          "skills":["data analytics", "market research"],
-          "tools":["Amazon Analytics", "Vine", "Excel"]
+          "skills":["qualatative analysis", "quantitative analysis"],
+          "tools":["Excel"]
+        },
+        {
+          "projectName":"Created Documentation",
+          "image": {
+            "src": "../../src/images/The Website Owner's Reference Cover 500h.jpg"
+          },
+          "description":"Developed routines and documentation for this position in order to help my successor rapidly onboard and become familiar with the many responsibilities that I created for myself.",
+          "skills":["documentation", "management"],
+          "tools":["Microsoft Office"]
         }
       ],
       "reference": [
