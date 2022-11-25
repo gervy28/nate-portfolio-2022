@@ -39,10 +39,9 @@ This is a portfolio to showcase a resume and creativity. Some of the key inputs 
 - [ ] Distribute across your networks including: LinkedIn, GitHub, StackOverflow, Facebook & Insta
 
 ## Acceptance Criteria:
-- [ ] Grammarly spell checks confirmed
+- [x] Grammarly spell checks confirmed
 - [ ] 3 Reviews by professionals with domain knowledge
 
 ## Constraints:
-- [ ] You have 1 week to build the project
-  - went beyond allotted time, next project scope by hourly 
+- [ ] You have 1 week to build the project 
 - [ ] You cannot use familiar WordPress or no-code technology

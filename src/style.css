@@ -433,17 +433,33 @@ a.btn_primary {
   border-radius: 100%;
 }
 
-
-
-.blog-post header h1 {
+.blog_post > header {
+  margin: 5rem;
 }
 
-.blog_post h2 {
-  font-size: 1.7rem;
+.blog_post_wrapper {
+  max-width: 900px;
+  margin: auto;
 }
 
-.blog-post header p {
+.blog_post_wrapper h2 {
+  font-size: 4rem;
+  margin: 2rem 0;
 }
+
+.blog_post_wrapper ul {
+  display: block;
+  margin: 1rem;
+  list-style: disc;
+}
+
+.blog_post_wrapper li {
+  margin-left: 1rem;
+  padding: .25rem 0;
+}
+
+
+
 
 .blog-post-nav ul {
   margin: var(--spacing-0);

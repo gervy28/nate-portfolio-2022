@@ -1,48 +1,47 @@
 ---
-title: Defining This Project
+title: What N8 Is Like
 date: "2022-11-09T15:46:37.121Z"
-description: A brief overview of this project.
+description: Read a little bit about my thought process!
 ---
+## The Question That Drives Me
 
-## Nate's Portfolio Project Scope
+"Did I make the right decision" is the endlessly relevant question that drives almost all of the elements of fulfillment in our lives! The inescapable reality is that all actions, relationships, production, and goal fulfillment are directly impacted by how we answer the question, "Did I make the right decision" and how we respond to whatever answer we may find. 
 
-I am launching this project for two purposes:
+That question drives the endless - decide, act, learn -- decide, act, learn  - process that guides my life.
 
-1. Create a portfolio to get me hired
-2. Experiment with Gatsby to create the future home of your personal blog
+My personality revolves around engaging in, thinking about, and improving that one single process. 
 
-The project should show my ability to quickly create prototypes with new technologies while demonstrating value of a PM with a design conscious mind is. At the end of the day, this project's success hinges on one question:
-**Did this portfolio get you hired?**
+It drives most of my communication: how did you arrive at that decision - did you consider this; what did it feel like to act in that way; how has that impacted your life? 
 
-## Description
+It drives most of my actions: did I commit to a decision; am I fulfilling my duties to that decision; am I breaking any rules of my decision? 
 
-This is a portfolio to showcase a resume and creativity. Some of the key inputs for this project include: 
--[ ] Research PM job descriptions
--[ ] Identify patterns in PM job descriptions
--[ ] Create hand drawn wire frames
--[ ] Create a prototype in Figma
--[ ] Build in a new system (Gatsby + React)
+It drives all of my learning: how can I do it better next time; what portion of the cycle went well; how do I learn more next time?
 
 
-## Desired Results:
--[ ] Have a new role as a PM or Associate PM within 3 months of portfolio completion
--[ ] Role should be focused on New Product development
 
-## Exclusions:
--[ ] Do not use a CMS
--[ ] No backend functionality/code
--[ ] No extra time on responsive design
--[ ] No extra time on responsive design
--[ ] No extra time on SEO
+## Me At Work:
 
-## Communication Needs:
--[ ] Request portfolio reviews from PMs and PM hiring managers
--[ ] Distribute across your networks including: LinkedIn, GitHub, StackOverflow, Facebook & Insta
+In my work life, the cycle manifests as a desire for clarity, accountability, and improvement. And it allows me to be adaptable to most situations. I especially like cultures where teams of talented people who do these sorts of things:
 
-## Acceptance Criteria:
--[ ] Grammarly spell checks confirmed
--[ ] 3 Reviews by professionals with domain knowledge
+- They have the desire to want to talk about why
+- They tend to draw on diverse sources of knowledge
+- They want to give and receive strong criticism
+- They have the desire to coach and teach 
+- They expect quality from themselves and me
 
-## Constraints:
--[ ] You have 1 week to build the project
--[ ] You cannot use familiar WordPress or no-code technology
+
+
+## Me At Home:
+
+I don't turn my work personality off. And continue to engage in this thinking across all my hobbies and interests. Setting goals, making plans, and trying new things is all I do, even when I'm out of the office. 
+
+If you were to be a fly on the wall to my weekend, you'd see me:
+
+- Woodworking, doing small projects or watching tutorials 
+- Reading and writing
+- Biking, fishing, hunting, or skiing
+
+
+
+That's a bit about me! I'm looking forward to learning about you!
+
