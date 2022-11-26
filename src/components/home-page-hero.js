@@ -65,6 +65,13 @@
           loading="eager" 
           width={500}
           src="../images/nate-working-for-portfolio.png" 
+          style={{
+            position: 'absolute',
+            top: '4.8rem',
+            left: '-3.5rem',
+            zIndex: 0,
+            opacity: .2
+          }}
           imgClassName={homePageHeroStyles.back_img}
           className={homePageHeroStyles.back_img_container}
           alt="nate gervenak working"
