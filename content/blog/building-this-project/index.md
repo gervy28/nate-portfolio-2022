@@ -17,31 +17,31 @@ The project should show my ability to quickly create prototypes with new technol
 ## Description
 
 This is a portfolio to showcase a resume and creativity. Some of the key inputs for this project include: 
-[x] Research PM job descriptions
-[x] Identify patterns in PM job descriptions
-[x] Create hand drawn wire frames
-[x] Create a prototype in Figma
-[x] Build in a new system (Gatsby + React)
+- [x] Research PM job descriptions
+- [x] Identify patterns in PM job descriptions
+- [x] Create hand drawn wire frames
+- [x] Create a prototype in Figma
+- [x] Build in a new system (Gatsby + React)
 
 
 ## Desired Results:
-[ ] Have a new role as a PM or Associate PM within 3 months of portfolio completion
+- [ ] Have a new role as a PM or Associate PM within 3 months of portfolio completion
 [ ] Role should be focused on New Product development
 
 ## Exclusions:
-[x] Do not use a CMS
-[x] No backend functionality/code
-[x] No extra time on responsive design
-[x] No extra time on SEO
+- [x] Do not use a CMS
+- [x] No backend functionality/code
+- [x] No extra time on responsive design
+- [x] No extra time on SEO
 
 ## Communication Needs:
-[ ] Request portfolio reviews from PMs and PM hiring managers
-[ ] Distribute across your networks including: LinkedIn, GitHub, StackOverflow, Facebook & Insta
+- [ ] Request portfolio reviews from PMs and PM hiring managers
+- [ ] Distribute across your networks including: LinkedIn, GitHub, StackOverflow, Facebook & Insta
 
 ## Acceptance Criteria:
-[x] Grammarly spell checks confirmed
-[ ] 3 Reviews by professionals with domain knowledge
+- [x] Grammarly spell checks confirmed
+- [ ] 3 Reviews by professionals with domain knowledge
 
 ## Constraints:
-[x] You have 1 week to build the project 
-[x] You cannot use familiar WordPress or no-code technology
+- [x] You have 1 week to build the project 
+- [x] You cannot use familiar WordPress or no-code technology

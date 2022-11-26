@@ -458,6 +458,10 @@ a.btn_primary {
   padding: .25rem 0;
 }
 
+.task-list-item {
+  list-style: none;;
+}
+
 
 
 
