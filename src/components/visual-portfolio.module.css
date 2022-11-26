@@ -54,14 +54,6 @@
   background-color: black;
 }
 
-.portfolio_item_background{
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
 .portfolio_item_content_wrap {
   height: 100%;
   width: 100%;

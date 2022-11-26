@@ -45,6 +45,13 @@
       <GatsbyImage 
         image={getImage(src)} 
         className={visualPortfolioStyles.portfolio_item_background}
+        style={{
+          position: 'absolute',
+          width: '100%',
+          top: 0,
+          left: 0,
+          zIndex: 1
+        }}
         objectFit="cover"
         alt="nate g portfolio img"
         key={i}>
