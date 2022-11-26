@@ -36,7 +36,7 @@
 }
 
 .hero_container h2 {
-  font-size: 3.8rem;
+  font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 900;
@@ -50,4 +50,17 @@
 
 .front_img_container {
   z-index: 1;
+}
+
+
+/* these styles only apply on screens above 750px aka Tablet*/
+@media all and (min-width: 750px){
+  .hero_container h2 {
+    font-size: 3.8rem;
+  }
+}
+
+
+/* These styles ONLY apply on screens above 1200px aka Desktop*/
+@media all and (min-width: 1200px ){
 }

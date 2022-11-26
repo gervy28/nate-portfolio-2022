@@ -41,7 +41,7 @@
           <span></span>
         </div>
         <div>
-          <h1 className="title_stretched">make: gervenak - model: n8</h1>
+          <h1 className="title_stretched">make:gervenak  model:n8</h1>
           <h2>I'M BUILT TO CREATE TOOLS USERS WANT</h2>
           <p>
           My diverse background in entrepreneurship, intrapreneurship, design, 

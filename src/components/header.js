@@ -33,7 +33,7 @@
  
    return (
     <header className={`contained_section ${headerStyles.global_header}`}>
-      <h1>Nate Gervenak</h1>
+      <h1><a href="/">Nate Gervenak</a></h1>
       <nav>
         <ul>
           <li className="mobile-hidden" ><a href="/#skills">skills</a></li>
