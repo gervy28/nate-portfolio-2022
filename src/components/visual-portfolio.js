@@ -103,7 +103,7 @@
       {data.resumeJson.work.map((entry, i) => {
         return (
           <div key={i}>
-            <h3 className="title_stretched">{entry["company"]}</h3>
+            <h3 className="title_stretched">{entry['name']}</h3>
             {/* Start Card Wrapper -- where scrolling occurs*/}
             <div
               onMouseDown={(e) => handleMouseDown(e, scrollableSections.current[i])} 
