@@ -5,7 +5,7 @@ description: Read a little bit about my thought process!
 ---
 ## The Question That Drives Me
 
-"Did I make the right decision" is the endlessly relevant question that drives almost all of the elements of fulfillment in our lives! The inescapable reality is that all actions, relationships, production, and goal fulfillment are directly impacted by how we answer the question, "Did I make the right decision" and how we respond to whatever answer we may find. 
+"Did I make the right decision" is the endlessly relevant question that drives almost all of the elements of fulfillment in our lives! The inescapable reality is that all actions, relationships, production, and goal fulfillment are directly impacted by how we answer that question and how we respond to whatever answer we may find. 
 
 That question drives the endless - decide, act, learn -- decide, act, learn  - process that guides my life.
 
@@ -21,9 +21,9 @@ It drives all of my learning: how can I do it better next time; what portion of 
 
 ## Me At Work:
 
-In my work life, the cycle manifests as a desire for clarity, accountability, and improvement. And it allows me to be adaptable to most situations. I especially like cultures where teams of talented people who do these sorts of things:
+In my work life, the cycle manifests as a desire for clarity, accountability, and improvement. And it allows me to be adaptable to most situations. I especially like cultures where teams of talented people do these sorts of things:
 
-- They have the desire to want to talk about why
+- They want to talk about why
 - They tend to draw on diverse sources of knowledge
 - They want to give and receive strong criticism
 - They have the desire to coach and teach 
