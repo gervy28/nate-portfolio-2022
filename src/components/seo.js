@@ -35,11 +35,15 @@ const Seo = ({ description, lang, title, children }) => {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
+      <meta property="og:image" content="https://nategervenak.com/nate-g-portfolio-meta.jpg" />
       <meta property="og:type" content="website" />
       <meta
         name="twitter:creator"
         content={site.siteMetadata?.social?.twitter || ``}
       />
+
+
+
       {children}
     </>
   )
